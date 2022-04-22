@@ -1,5 +1,8 @@
-let currentResult = 0;
+const defaultResult = 0
 
-currentResult = currentResult + 10;
+let currentResult = defaultResult;
+currentResult = currentResult + 10 + 19 - 9 / 3;
 
-outputResult(currentResult, '');
+let calculatorDescription = '(' + defaultResult + ' + 10) + 19 - 9 / 3';
+
+outputResult(currentResult, calculatorDescription);
